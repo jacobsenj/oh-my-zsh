@@ -1,7 +1,7 @@
 typeset -A host_repr
 
 # translate hostnames into shortened, colorcoded strings
-host_repr=('jeja-mac.local' "%{$fg_bold[green]%}J" 'jeja-mac.fritz.box' "%{$fg_bold[green]%}J@HOME:")
+host_repr=('jeja-mac.local' "%{$fg_bold[blue]%}J" 'jeja-mac16.local' "%{$fg_bold[green]%}J" 'jeja-mac.fritz.box' "%{$fg_bold[green]%}J@HOME:")
 
 # user part, color coded by privileges
 local user="%(!.%{$fg[blue]%}.%{$fg[blue]%})%n%{$reset_color%}"
